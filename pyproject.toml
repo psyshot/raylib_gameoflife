@@ -1,0 +1,13 @@
+[project]
+name = "ray_cgol"
+version = "0.1.0"
+description = "Conway's Game of Life"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "raylib>=5.5.0.3",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
+default = true
